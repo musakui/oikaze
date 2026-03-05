@@ -1,0 +1,21 @@
+{
+	"compilerOptions": {
+		"strict": true,
+		"noEmit": true,
+		"allowJs": true,
+		"target": "ESNext",
+		"module": "ESNext",
+		"declaration": true,
+		"skipLibCheck": true,
+		"stripInternal": true,
+		"isolatedModules": true,
+		"moduleResolution": "node",
+		"types": ["vite/client"],
+		"lib": ["ESNext", "DOM", "DOM.Iterable"]
+	},
+	"include": [
+		"test",
+		"src",
+		"lib"
+	]
+}
